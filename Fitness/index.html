@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="my.css">
+</head>
+  <body text="White"></body>
+<div class="container">
+<form>
+  <h1>CONTACT US</h1>
+  <hr><br>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname"autofocus size="10" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" size="10" placeholder="Your last name..">
+
+    <label for="ename">E-mail</label>
+    <input type="text" id="ename" name="E-mail"required placeholder="Your E-mail.."required>
+
+    <label for="mnumber">Mobile Number</label>
+    <input type="text" id="mnumber" name="Number" maxlength="10" minlength="10" placeholder="Mobile Number.."required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="None">None</option>
+      <option value="India">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write your message here into 256 characters......" style="height:200px" minlength="10" maxlength="256" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+</div>
+</body>
+</html>
